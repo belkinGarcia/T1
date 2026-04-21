@@ -20,6 +20,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Views.MenuAdminActivity" android:exported="false"/>
+        <activity android:name=".Views.MenuElectorActivity" android:exported="false"/>
+
+        <activity android:name=".Views.ListaCandidatosActivity" android:exported="false"/>
+        <activity android:name=".Views.FormCandidatoActivity" android:exported="false"/>
+
+        <activity android:name=".Views.ListaElectoresActivity" android:exported="false"/>
+        <activity android:name=".Views.FormElectorActivity" android:exported="false"/>
+
+        <activity android:name=".Views.EleccionConfigActivity" android:exported="false"/>
+        <activity android:name=".Views.VotarActivity" android:exported="false"/>
+        <activity android:name=".Views.ResultadosActivity" android:exported="false"/>
     </application>
 
 </manifest>
